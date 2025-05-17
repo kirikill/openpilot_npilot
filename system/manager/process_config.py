@@ -60,6 +60,9 @@ def or_(*fns):
 def and_(*fns):
   return lambda *args: operator.and_(*(fn(*args) for fn in fns))
 
+def enable_dm(started, params, CP: car.CarParams) -> bool:
+  return (started or params.get_bool("IsDriverViewEnabled")) and params.get_int("DisableDM") == 0
+
 procs = [
   DaemonProcess("manage_athenad", "system.athena.manage_athenad", "AthenadPid"),
 
