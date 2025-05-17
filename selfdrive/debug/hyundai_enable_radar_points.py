@@ -49,6 +49,15 @@ SUPPORTED_FW_VERSIONS = {
     default_config=b"\x00\x00\x00\x01\x00\x00",
     tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
   # 2022 PALISADE
+  b"LX2_ SCC FHCUP      1.00 1.02 99110-S8100\x18\x12\x19\x10    ": ConfigValues(
+    default_config=b"\x00\x00\x00\x01\x00\x00",
+    tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
+  b'LX2_ SCC FHCUP      1.00 1.02 99110-S8100\x18\x12\x19\x10"    ': ConfigValues(
+    default_config=b"\x00\x00\x00\x01\x00\x00",
+    tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
+  b'LX2_ SCC FHCUP      1.00 1.02 99110-S8100\x18\x12\x19\x10    ': ConfigValues(
+    default_config=b"\x00\x00\x00\x01\x00\x00",
+    tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
   b"LX2_ SCC FHCUP      1.00 1.00 99110-S8110!\x04\x05\x17\x01    ": ConfigValues(
     default_config=b"\x00\x00\x00\x01\x00\x00",
     tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
